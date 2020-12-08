@@ -4,5 +4,9 @@
         <page name='Introduction'/>
         <page name='Tortoise Examples'/>
         <page name='Blank canvas to copy'/>
+        <page name='Culminating'/>
+        <page name='Arrow'/>
+        <page name='Tesselation'/>
+        <page name='Tesselation #2'/>
     </pages>
 </playground>
