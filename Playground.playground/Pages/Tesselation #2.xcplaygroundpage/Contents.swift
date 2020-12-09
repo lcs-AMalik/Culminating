@@ -44,6 +44,7 @@ PlaygroundPage.current.liveView = canvas
  [Documentation](http://russellgordon.ca/CanvasGraphics/Documentation/) is available.
  
  */
+canvas.highPerformance = true
 
 // Create a turtle to use
 let turtle = Tortoise(drawingUpon: canvas)
@@ -88,15 +89,307 @@ func drawArrow(){
     }
     
 }
-
-turtle.setPosition(to: Point(x: 200, y: 200))
+turtle.penUp()
+turtle.setPosition(to: Point(x: 0, y: 0))
+turtle.penDown()
 
 turtle.drawSelf()
 drawArrow()
 
 // Get turtle into position to draw another arrow
+turtle.penUp()
 turtle.left(by: 45)
 turtle.forward(steps: 176)
+turtle.penDown()
+
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+  drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+turtle.penUp()
+turtle.setPosition(to: Point(x: -100, y: 100))
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+turtle.penUp()
+turtle.setPosition(to: Point(x: -200, y: 200))
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+turtle.penUp()
+turtle.setPosition(to: Point(x: 100, y: -100))
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+turtle.penUp()
+turtle.setPosition(to: Point(x: 200, y: -200))
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
+
+// get into position
+turtle.penUp()
+turtle.forward(steps: 0)
+turtle.left(by: 45)
+turtle.forward(steps: 0)
+turtle.right(by: 90)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another arrow
+turtle.penUp()
+turtle.left(by: 45)
+turtle.forward(steps: 176)
+turtle.penDown()
 
 // get into position
 turtle.penUp()
@@ -108,6 +401,12 @@ turtle.penDown()
 
   drawArrow()
 turtle.drawSelf()
+
+canvas.highPerformance = false
+turtle.penUp()
+turtle.forward(steps: 1)
+
+turtle.copySVGToClipboard()
 
 /*:
  ## Show the Assistant Editor
