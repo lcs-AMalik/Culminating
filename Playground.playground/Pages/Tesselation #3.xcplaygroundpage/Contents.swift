@@ -48,11 +48,12 @@ PlaygroundPage.current.liveView = canvas
 // Create a turtle to use
 let turtle = Tortoise(drawingUpon: canvas)
 
-//canvas.highPerformance = true
+// high performance
+canvas.highPerformance = true
 
 
 // Change color
-canvas.lineColor = Color.yellow
+canvas.lineColor = Color.blue
 
 func drawArrow(){
 
@@ -509,23 +510,59 @@ turtle.penDown()
 
 drawArrow()
 
-// Drawing the 11th row of zigzag
+// Drawing the 12th row of zigzag
 turtle.penUp()
 turtle.setPosition(to: Point(x: -75, y: 500))
 turtle.penDown()
 
 drawArrow()
 
+// Get turtle into position to draw another Zig
+turtle.penUp()
+turtle.forward(steps: 100)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another Zig
+turtle.penUp()
+turtle.forward(steps: 100)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another Zig
+turtle.penUp()
+turtle.forward(steps: 100)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another Zig
+turtle.penUp()
+turtle.forward(steps: 100)
+turtle.penDown()
+
+drawArrow()
+
+// Get turtle into position to draw another Zig
+turtle.penUp()
+turtle.forward(steps: 100)
+turtle.penDown()
+
+drawArrow()
+
+// turtle draw self
+turtle.drawSelf()
 
 
+// High performance
+canvas.highPerformance = false
 
-//turtle.drawSelf()
+turtle.penUp()
+turtle.forward(steps: 1)
 
-//canvas.highPerformance = false
-//turtle.penUp()
-//turtle.forward(steps: 1)
-//
-//turtle.copySVGToClipboard()
+turtle.copySVGToClipboard()
 
 /*:
  ## Show the Assistant Editor
