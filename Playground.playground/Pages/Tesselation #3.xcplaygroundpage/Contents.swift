@@ -42,7 +42,7 @@ PlaygroundPage.current.liveView = canvas
  You can remove the code on line 49 and begin writing your own code.
  
  [Documentation](http://russellgordon.ca/CanvasGraphics/Documentation/) is available.
-
+ 
  */
 
 // Create a turtle to use
@@ -56,36 +56,36 @@ canvas.highPerformance = true
 canvas.lineColor = Color.blue
 
 func drawArrow(){
-
-// Draw a tessellation the hard way
-for _ in 1...1 {
-   
-// Get into position
-    turtle.penUp()
-    turtle.forward(steps: 0)
-    turtle.left(by: 90)
-    turtle.forward(steps: 0)
-    turtle.right(by: 90)
-    turtle.penDown()
     
-    // Drawing zigzag
-    turtle.forward(steps: 75) //1
-    turtle.right(by: 90)
-    turtle.forward(steps: 25) //2
-    turtle.left(by: 90)
-    turtle.forward(steps: 100) //3
-    turtle.left(by: 90)
-    turtle.forward(steps: 25) //4
-    turtle.left(by: 90)
-    turtle.forward(steps: 75) //5
-    turtle.right(by: 90)
-    turtle.forward(steps: 25) //6
-    turtle.left(by: 90)
-    turtle.forward(steps: 100) //7
-    turtle.left(by: 90)
-    turtle.forward(steps: 25) //8
-    turtle.left(by: 90)
-}
+    // Draw a tessellation the hard way
+    for _ in 1...1 {
+        
+        // Get into position
+        turtle.penUp()
+        turtle.forward(steps: 0)
+        turtle.left(by: 90)
+        turtle.forward(steps: 0)
+        turtle.right(by: 90)
+        turtle.penDown()
+        
+        // Drawing zigzag
+        turtle.forward(steps: 75) //1
+        turtle.right(by: 90)
+        turtle.forward(steps: 25) //2
+        turtle.left(by: 90)
+        turtle.forward(steps: 100) //3
+        turtle.left(by: 90)
+        turtle.forward(steps: 25) //4
+        turtle.left(by: 90)
+        turtle.forward(steps: 75) //5
+        turtle.right(by: 90)
+        turtle.forward(steps: 25) //6
+        turtle.left(by: 90)
+        turtle.forward(steps: 100) //7
+        turtle.left(by: 90)
+        turtle.forward(steps: 25) //8
+        turtle.left(by: 90)
+    }
     
 }
 // Drawing first row
@@ -571,7 +571,7 @@ turtle.copySVGToClipboard()
  Remember to show the Assistant Editor (1), and then switch to Live View (2):
  
  ![timeline](timeline.png "Timeline")
-
+ 
  ## Use source control
  To keep your work organized, receive feedback, and earn a high grade in this course, regular use of source control is a must.
  
@@ -588,7 +588,7 @@ turtle.copySVGToClipboard()
  Remember to show the Assistant Editor (1), and then switch to Live View (2):
  
  ![timeline](timeline.png "Timeline")
-
+ 
  ## Use source control
  To keep your work organized, receive feedback, and earn a high grade in this course, regular use of source control is a must.
  
